@@ -1,0 +1,47 @@
+/* src/pages/Translator.css */
+
+.translator-container {
+    height: 100%;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 100%;
+    margin: auto;
+    background-image: url('./assets/card4.jpg'); /* add background image for Home page */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .translator-container h1 {
+    text-align: center;
+  }
+  
+  .translator-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .translator-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .translator-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .translation-output {
+    margin-top: 10px;
+    text-align: center;
+  }
+  

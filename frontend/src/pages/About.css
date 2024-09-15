@@ -1,0 +1,31 @@
+/* src/styles/About.css */
+.about-container {
+    padding: 10px;
+    max-width: 100%;
+    margin: auto;
+    
+    background-image: url('./assets/card4.jpg'); /* add background image for Home page */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    color: #4CAF50; /* Green */
+    text-align: center;
+  }
+  
+  h2 {
+    color:rgb(0, 0, 0); /* Dark Gray */
+  }
+  
+  p {
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  

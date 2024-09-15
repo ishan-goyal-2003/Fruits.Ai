@@ -1,0 +1,61 @@
+/* src/pages/Home.css */
+
+html, body {
+    height: 100%; /* Ensure full height */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .main-container {
+    background-image: url('./assets/card4.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height of the viewport */
+  }
+  
+  .card-container {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px; /* Gap between cards */
+    margin: 20px; /* Margin around the card container */
+    flex: 1; /* Allow the card container to grow */
+  }
+  
+  .card {
+    background-image: url('./assets/LoginB.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    text-decoration: none;
+    color:darkred;
+    font-size: 37px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .card-container {
+      grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card-container {
+      grid-template-columns: 1fr; /* One column on very small screens */
+    }
+  }
+  

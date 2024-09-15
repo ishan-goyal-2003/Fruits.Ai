@@ -1,0 +1,38 @@
+/* src/pages/Chatbot.css */
+
+.chatbot-container {
+  height: 100%;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 100%;
+    margin: auto;
+    background-image: url('./assets/card4.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .chatbot-messages {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  .user {
+    background-color: #4CAF50;
+    color: white;
+    text-align: right;
+  }
+  
+  .bot {
+    background-color: #e0e0e0;
+    text-align: left;
+  }
+  
